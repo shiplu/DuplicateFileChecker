@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7DAD7253-EE38-4B11-A2EB-591F474E3656}</ProjectGuid>
+    <Packages>
+      <Packages>
+        <Package name="Microsoft Windows Binaries">
+          <Builder targetFile="..\..\..\..\Desktop\DuplicateFileChecker.tar.bz2" platform="Windows" configuration="Release|x86" ctype="BinariesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="..\DuplicateFileChecker\DuplicateFileChecker.csproj" />
+            </ChildEntries>
+            <RootEntry path="..\DuplicateFileChecker.sln" id=":root:" />
+          </Builder>
+        </Package>
+        <Package name="Linux Binaries">
+          <Builder targetFile="..\..\..\..\Desktop\DuplicateFileChecker.tar.gz" platform="Linux" configuration="Release|x86" ctype="BinariesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="..\DuplicateFileChecker\DuplicateFileChecker.csproj" />
+            </ChildEntries>
+            <RootEntry path="..\DuplicateFileChecker.sln" id=":root:" />
+          </Builder>
+        </Package>
+      </Packages>
+    </Packages>
+  </PropertyGroup>
+</Project>

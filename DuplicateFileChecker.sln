@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicateFileChecker", "DuplicateFileChecker\DuplicateFileChecker.csproj", "{5417FF48-2AAF-425F-AC2E-AB03D5CAA9E3}"
+EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "Package", "Package\Package.mdproj", "{7DAD7253-EE38-4B11-A2EB-591F474E3656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicateStrategyAddin", "DuplicateStrategyAddin\DuplicateStrategyAddin.csproj", "{DC6B2965-8865-4D72-996A-A834D8299F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileNameChecker", "FileNameChecker\FileNameChecker.csproj", "{C5F86B3A-98DC-4EE8-9ECA-85CF30701826}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5417FF48-2AAF-425F-AC2E-AB03D5CAA9E3}.Debug|x86.ActiveCfg = Debug|x86
+		{5417FF48-2AAF-425F-AC2E-AB03D5CAA9E3}.Debug|x86.Build.0 = Debug|x86
+		{5417FF48-2AAF-425F-AC2E-AB03D5CAA9E3}.Release|x86.ActiveCfg = Release|x86
+		{5417FF48-2AAF-425F-AC2E-AB03D5CAA9E3}.Release|x86.Build.0 = Release|x86
+		{7DAD7253-EE38-4B11-A2EB-591F474E3656}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7DAD7253-EE38-4B11-A2EB-591F474E3656}.Release|x86.ActiveCfg = Release|Any CPU
+		{C5F86B3A-98DC-4EE8-9ECA-85CF30701826}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C5F86B3A-98DC-4EE8-9ECA-85CF30701826}.Debug|x86.Build.0 = Debug|Any CPU
+		{C5F86B3A-98DC-4EE8-9ECA-85CF30701826}.Release|x86.ActiveCfg = Release|Any CPU
+		{C5F86B3A-98DC-4EE8-9ECA-85CF30701826}.Release|x86.Build.0 = Release|Any CPU
+		{DC6B2965-8865-4D72-996A-A834D8299F22}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC6B2965-8865-4D72-996A-A834D8299F22}.Debug|x86.Build.0 = Debug|Any CPU
+		{DC6B2965-8865-4D72-996A-A834D8299F22}.Release|x86.ActiveCfg = Release|Any CPU
+		{DC6B2965-8865-4D72-996A-A834D8299F22}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = DuplicateFileChecker\DuplicateFileChecker.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+	EndGlobalSection
+EndGlobal
